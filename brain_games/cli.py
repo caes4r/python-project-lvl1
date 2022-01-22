@@ -1,7 +1,10 @@
-import prompt
+"""Command line interface."""
+
+
+import prompt  # import.
 
 
 def welcome_user():
-	name=prompt.string('May I have your name? ')
+	"""Name request."""
+	name = prompt.string('May I have your name? ')
 	print('Hello, {}!'.format(name))
-
